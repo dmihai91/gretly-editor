@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "eslint-config-satya164"
+  ],
+
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+  }
+}

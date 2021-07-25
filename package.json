@@ -1,0 +1,59 @@
+{
+  "name": "monaco-editor-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Boilerplate for projects using ES2015 and React",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/satya164/react-boilerplate.git"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-serve",
+    "flow": "flow",
+    "lint": "eslint .",
+    "build": "cross-env NODE_ENV=production webpack -p",
+    "prebuild": "del dist"
+  },
+  "author": "Satyajit Sahoo <satyajit.happy@gmail.com> (https://github.com/satya164/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "del-cli": "^1.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-satya164": "^2.0.1",
+    "eslint-plugin-vue": "^7.10.0",
+    "flow-bin": "^0.80.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.2",
+    "webpack-command": "^0.4.1",
+    "webpack-serve": "^2.0.2",
+    "worker-loader": "^2.0.0"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.14.4",
+    "@babel/traverse": "^7.14.2",
+    "babel-polyfill": "^6.26.0",
+    "dedent": "^0.7.0",
+    "idb-keyval": "^3.1.0",
+    "lodash": "^4.17.10",
+    "monaco-editor": "^0.14.3",
+    "monaco-jsx-highlighter": "^1.1.8",
+    "prettier": "^1.14.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-folder-tree": "^5.0.3"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
